@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: development@develhope.co
+    password: develhope1?
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+sendGrid:
+  email: pietrogallina96@gmail.com
+  apiKey: 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
